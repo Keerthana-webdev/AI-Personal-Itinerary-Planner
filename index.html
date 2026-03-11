@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Personal Itinerary Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="main">
+
+<h1>🌍 AI Personal Itinerary Planner</h1>
+<p>Plan your trip instantly</p>
+
+<input type="text" id="city" placeholder="Enter Destination">
+
+<input type="number" id="days" placeholder="Number of Days">
+
+<select id="budget">
+<option>Low Budget</option>
+<option>Medium Budget</option>
+<option>Luxury</option>
+</select>
+
+<br>
+
+<button onclick="generatePlan()">Generate Plan</button>
+
+<div class="result">
+
+<h2>📅 Itinerary</h2>
+<div id="plan"></div>
+
+<h2>💰 Estimated Budget</h2>
+<p id="cost"></p>
+
+<h2>🎒 Packing List</h2>
+<ul id="packing"></ul>
+
+<h2>🗺 Map</h2>
+<iframe id="map" width="100%" height="300"></iframe>
+
+<h2>🌤 Travel Tips</h2>
+<p id="tips"></p>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
