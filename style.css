@@ -1,62 +1,55 @@
 body{
-
-margin:0;
-font-family:Arial;
-
-background:linear-gradient(120deg,#89f7fe,#66a6ff);
-
+   margin:0;
+   font-family:Arial;
+   background:linear-gradient(120deg,#89f7fe,#66a6ff);
 }
 
 .main{
-
-width:70%;
-margin:auto;
-margin-top:40px;
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 10px 20px rgba(0,0,0,0.2);
-
-text-align:center;
-
+   width:70%;
+   margin:auto;
+   margin-top:40px;
+   background:white;
+   padding:30px;
+   border-radius:10px;
+   box-shadow:0 10px 20px rgba(0,0,0,0.2);
+   text-align:center;
 }
 
 input,select{
-
-padding:10px;
-margin:10px;
-width:60%;
-font-size:16px;
-
+    padding:10px;
+    margin:10px;
+    width:60%;
+    font-size:16px;
+    border-radius:5px;
+    border:1px solid #ccc;
 }
 
 button{
-
-padding:12px 20px;
-background:#0077ff;
-color:white;
-border:none;
-border-radius:5px;
-font-size:16px;
-cursor:pointer;
-
+    padding:12px 20px;
+    background:#0077ff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
 }
 
 button:hover{
-
-background:#005ce6;
-
+    background:#005ce6;
 }
 
-.result{
-
-margin-top:30px;
-text-align:left;
-
+.result{  
+    margin-top:30px;
+    text-align:left;
 }
 
 h1{
+    color:#333;
+}
 
-color:#333;
-
+.dayCard{
+    background:#f5f7ff;
+    padding:15px;
+    margin:15px 0;
+    border-radius:8px;
 }
